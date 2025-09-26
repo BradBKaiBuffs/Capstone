@@ -7,7 +7,8 @@ Assignment 2
 I have learned a lot during my time spent with the Data Management courses. I steadily grew more confident as my foundation in applying what I learned through assignments from both courses. I am the most confident in the following areas:
 
 # Areas I am most confident in
-* **Entity Relation Models:** I received exposure in designing Entity Relationship diagrams to model relational schemas and provided logical data representation. While course material introduced and covered the information I needed to execute assignments, I found it helpful to reinforce it with websites like https://www.geeksforgeeks.org/dbms/introduction-of-er-model/#. This made it possible to create a chen diagram and crows foot shown below:
+* **Entity Relation Models:** I received exposure in designing Entity Relationship diagrams to model relational schemas and provided logical data representation. While course material introduced and covered the information I needed to execute assignments, I found it helpful to reinforce it with websites like https://www.geeksforgeeks.org/dbms/introduction-of-er-model/#. This made it possible to create a chen diagram and crows foot.
+<img width="720" height="785" alt="image" src="https://github.com/user-attachments/assets/be94870e-c975-4307-87d9-bcab28404fce" />
 
 * **SQL Data Definition Language (DDL) & Data Manipulation Language (DML) Queries:** I gain proficiency in writing DDL statements to create and modify database structures. In addition, I utilized DML queries for joins, subqueries, aggregations and conditional logic to complete my assignments. Once again, I leveraged https://www.geeksforgeeks.org/dbms/difference-between-ddl-and-dml-in-dbms/ for a deeper understanding of the differences and aspects of DDL and DML. Due to this research, my group and I were able to create deliverables like below:
 ``` SQL
@@ -168,6 +169,8 @@ plt.ylabel("Temperature")
 
 plt.show()
 ```
+<img width="632" height="474" alt="image" src="https://github.com/user-attachments/assets/d7db42e5-5030-4f7a-b15f-d90739ff2709" />
+
 
 # Areas I'm weak in/Need more confidence with
 ---
