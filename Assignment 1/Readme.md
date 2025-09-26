@@ -38,7 +38,7 @@ SportCars = query1.iloc[ii]
 
 -----
 
-**Data ETL**: I've gained hands-on experience in extracting data from APIs and databases while cleaning and transforming it then loading it. A favorite of mine was using filters on a DataFrame to get specific pieces of data to present in graphs.
+* **Data ETL**: I've gained hands-on experience in extracting data from APIs and databases while cleaning and transforming it then loading it. A favorite of mine was using filters on a DataFrame to get specific pieces of data to present in graphs.
 
 -----
 
@@ -62,7 +62,7 @@ fig.show()
 
 -----
 
-**Visualization Foundation & Techniques**: I've been able to create meaningful visualizations using **Matplotlib** and **Streamlit**. I understand how to design visuals that commucate insights. The heavy usage of Matplotlib required research on https://matplotlib.org/ and other resources on the internet so that I could deliver specific results requested in assignments as displayed in the working piece of code below.
+* **Visualization Foundation & Techniques**: I've been able to create meaningful visualizations using **Matplotlib** and **Streamlit**. I understand how to design visuals that commucate insights. The heavy usage of Matplotlib required research on https://matplotlib.org/ and other resources on the internet so that I could deliver specific results requested in assignments as displayed in the working piece of code below.
 
 -----
 
