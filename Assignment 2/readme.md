@@ -134,8 +134,9 @@ ALTER TABLE Payment
 	ADD CONSTRAINT fk1_Payment_Bill_No FOREIGN KEY (Bill_No)
  	REFERENCES Bill (Bill_No);
 ```
-* **Transforming and loading for visualization:** I prepared datasets for visualization tools by reshaping, aggregating and formatting data.
-* **Importing and cleaning data:** I leveraged Python and Pandas for data management which built my experience in importing, cleaning, transforming and loading data. I got more familiar with Python libraries like Pandas and NumPy.
+* **Transforming and loading for visualization:** I prepared datasets for visualization tools by reshaping, aggregating and formatting data. Course learning material helped me understand the basics of preparing data and there were times when I needed office hours assistance to get help.
+* **Importing and cleaning data:** I leveraged Python and Pandas for data management which built my experience in importing, cleaning, transforming and loading data. I got more familiar with Python libraries like Pandas and NumPy. Sites like https://pandas.pydata.org/ and https://numpy.org/ were great resources to help me gain a better understanding and assist when I had challenges.
+
 
 ```python
 #import pandas
@@ -194,7 +195,7 @@ Every assignment and project that I've answered or created has required some for
 # Prepardness for portfolio and prototype representative project
 ---
 
-Through my coursework experience, I believe I am prepared to apply what I learned with Data Management. My strengths in **relational modeling**, **SQL** and **Python-based data coding** set me up to build data systems. While I have areas to grow in, I possess the mindset and foundation to develop more as needed.
+Through my coursework experience, I believe I am prepared to apply what I learned with Data Management. My strengths in relational modeling, SQL and Python-based data coding set me up to build data systems. While I have areas to grow in, I possess the mindset and foundation to develop more as needed.
 
 # How Data Management integrates
 ---
