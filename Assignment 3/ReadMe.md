@@ -24,16 +24,16 @@ These are teh areas which I feel less confident and would benefit a lot with fur
 
 # What I wish I knew
 ---
-
+* **API Rate Limiting and Throttling**: I'd like to learn tools like Postman to test APIs. I'd also would like to implement basic limits using tools in AWS and Azure.
+* **Services Architecture**: I'd like to gain experience in services like monolithic or microservices. This would mean exploring tools like Docker and Kubernetes.
 
 # Summary statement of capabilities, competencies and preparedness
 ---
-
+Every project or assignment that I've built and successfully completed has involved aspects of software systems. Whether it was front-end interfaces to back-end logic and database integration, I have moved towards the goal of mastery with each step. These fundamentals have been layers of a canvas that allows me to apply my knowledge in future projects that are more complex. 
 
 # Prepardness for portfolio and prototype representative project
 ---
-
-
+I am prepared to apply what I learned in my Software System courses in my capstone prototype and portfolio. My strengths in Django, web development and machine learning integration positoin me to build scalable, intelligrent applications. I still have areas that I need to grow in but I have built a foundation an drive where I can learn on the go as I progress through a project.
 
 # How Software Systems integrates
 ---
