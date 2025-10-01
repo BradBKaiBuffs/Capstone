@@ -8,24 +8,26 @@ My experience in Software Systems has faciliated improvement in coding, the abil
 
 # Areas I am most confident in
 
-* **Python & Google Colab**: I became more proficient in writing and testing Python code in both local and cloud-based environments.
-* **Web Development**: I practiced and applied my skill in building responsive, user-friendly interfaces using HTML5, CSS and Bootstrap. I become more familarized with layout design and accessibility.
-* **Django Framework**: I implemented models, views, templates and other skills integretrated with SQL databases.
-* **SQL & SQL DB Browser**: I was very confident in designing and querying relational databases, integrating SQL with Django and using SQL DB Browser for schema integrated SQL databases.
-* **GitHub**: I became more confortable using GitHub for collaboration, version tracking and project documentation. I practiced functions that were very applicable to daily tasks that apply to production environments like commits and pull requests.
+* **Python & Google Colab**: I became more proficient in writing and testing Python code in both local and cloud-based environments. Datacamp.com courses helped me brush up on the basic and intermediate Python skills that I would need for projects and assignments.
+* **Web Development**: I practiced and applied my skill in building responsive, user-friendly interfaces using HTML5, CSS and Bootstrap. I become more familarized with layout design and accessibility. I found datacamp.com and www.w3schools.com useful in recalling basic concepts that I had forgotten due to lack of practicing.
+* **Django Framework**: I implemented models, views, templates and other skills integretrated with SQL databases. https://docs.djangoproject.com/en/5.2/ documention was helpful in understanding specific information I needed through my weekly assignments.
+* **SQL & SQL DB Browser**: I was very confident in designing and querying relational databases, integrating SQL with Django and using SQL DB Browser for schema integrated SQL databases. Once again, datacamp.com was instrumental in helping me practice the basic and intermediate concepts for SQL and related areas.
+* **GitHub**: I became more confortable using GitHub for collaboration, version tracking and project documentation. I practiced functions that were very applicable to daily tasks that apply to production environments like commits and pull requests. https://docs.github.com/en was a great resource to finding information on basic concepts needed to use GitHub.
 * **User Stories & Data Models**: I learned and applied how to translate user requirements into technical specifications and designed data models that reflected business logic and relationships.
 
 # Areas I'm weak in/Need more confidence with
 ---
-These are teh areas which I feel less confident and would benefit a lot with further practice or expsoure:
+These are the areas which I feel less confident and would benefit a lot with further practice or expsoure:
 * **Security Best Pracices**: I understand basic authentication and authorization, but I would like a deeper dive into secure coding practices, encryption and vulnerability testing.
 * **Scalability and Performance Optiimization**: I have built functional systems, but I want to learn more about caching, load balancing, and optimizing performance for high-traffic applications.
 * **DevOps and CI/CD Pipelines**: I have deployed projects for my courses manually but I have not had hands-on experience with automated deployment tools like Jenkins, GitHub Actions or Docker.
-
+* **Object-oriented concepts**: I'm not too confident when it comes to classes, objects and inheritance concepts. I know these concepts are a foundation for more advanced programming.
+   
 # What I wish I knew
 ---
 * **API Rate Limiting and Throttling**: I'd like to learn tools like Postman to test APIs. I'd also would like to implement basic limits using tools in AWS and Azure.
 * **Services Architecture**: I'd like to gain experience in services like monolithic or microservices. This would mean exploring tools like Docker and Kubernetes.
+* **Regular expressions**: Learning regular expressions would help me develop the abilty to search, manipulate and extra information from strings based on patterns. This should help with cleaning data, extration, data validation and data validation.
 
 # Summary statement of capabilities, competencies and preparedness
 ---
