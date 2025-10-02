@@ -39,22 +39,61 @@ with sqlite3.connect(db_name) as conn:
 
 ```
 * **Web Development**: I practiced and applied my skill in building responsive, user-friendly interfaces using HTML5, CSS and Bootstrap. I become more familarized with layout design and accessibility. I found datacamp.com and www.w3schools.com useful in recalling basic concepts that I had forgotten due to lack of practicing.
-* **Django Framework**: I implemented models, views, templates and other skills integretrated with SQL databases. https://docs.djangoproject.com/en/5.2/ documention was helpful in understanding specific information I needed through my weekly assignments. This help me build a site for a degree checklist project. An snippet of code shown below:
+* **Django Framework**: I implemented models, views, templates and other skills integretrated with SQL databases. https://docs.djangoproject.com/en/5.2/ documention was helpful in understanding specific information I needed through my weekly assignments. This help me build a site for a degree checklist project. An example is where I created forms:
 ```Django
-from django.contrib import admin
-from checklist.models import(Student, Course, Major, Requirement, Enroll, Major_requirement, Major_selection, Course_requirement)
+from django import forms
+from .models import Student, Major, Course, Course_requirement, Enroll, Major_selection, Major_requirement, Requirement
 
-# Register your models here.
-admin.site.register(Student)
-admin.site.register(Course)
-admin.site.register(Major)
-admin.site.register(Requirement)
-admin.site.register(Enroll)
-admin.site.register(Major_requirement)
-admin.site.register(Major_selection)
-admin.site.register(Course_requirement)
+COURSE_CHOICES =()
+# major form
+class MajorForm(forms.ModelForm):
+    class Meta:
+        model = Major
+        fields = ('major_name','total_hours')
+
+# student form
+class StudentForm(forms.ModelForm):
+    class Meta:
+        model = Student
+        fields = ('first_name','last_name')
+
+# course form
+class CourseForm(forms.ModelForm):
+    class Meta:
+        model = Course
+        fields = ('course_name','course_title','course_desc','credit_hours','prerequisite','semester')
+
+# requirement form
+class RequirementForm(forms.ModelForm):
+    class Meta:
+        model = Requirement
+        fields = "__all__"
+
+# major selection form
+class MajorSelForm(forms.ModelForm):
+    class Meta:
+        model = Major_selection
+        fields = "__all__"
+
+# major requirement form
+class MajorReqForm(forms.ModelForm):
+    class Meta:
+        model = Major_requirement
+        fields = "__all__"
+
+# enroll form
+class EnrollForm(forms.ModelForm):
+    class Meta:
+        model = Enroll
+        fields = "__all__"
+
+# course requirement form
+class CourseReqForm(forms.ModelForm):
+    class Meta:
+        model = Course_requirement
+        fields = "__all__"
 ```
-* **SQL & SQL DB Browser**: I was very confident in designing and querying relational databases, integrating SQL with Django and using SQL DB Browser for schema integrated SQL databases. Once again, datacamp.com was instrumental in helping me practice the basic and intermediate concepts for SQL and related areas. In DB Browser, I was able to view database structures and execute SQL code for my project.
+* **SQLite & SQL DB Browser**: I was very confident in designing and querying relational databases, integrating SQL with Django and using SQL DB Browser for schema integrated SQL databases. Once again, datacamp.com was instrumental in helping me practice the basic and intermediate concepts for SQL and related areas. In DB Browser, I was able to view database structures and execute SQL code for my project. I learned how to use DB Browser tool that leveraged SQLite. The skills I practices was querying data, table management, data manipulation and transactions. This included database design and schema as well.
 <img width="784" height="772" alt="image" src="https://github.com/user-attachments/assets/e8df279b-94a4-4f88-b6d9-e2c230fc27b0" />
 
 * **GitHub**: I became more confortable using GitHub for collaboration, version tracking and project documentation. I practiced functions that were very applicable to daily tasks that apply to production environments like commits and pull requests. https://docs.github.com/en was a great resource to finding information on basic concepts needed to use GitHub.
